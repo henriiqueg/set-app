@@ -16,7 +16,7 @@
 
 ---
 
-<p align="center"> 👋 Hi, want to learn music production🎵? So this is the perfect website for you.😎
+<p align="center"> 👋 Hi, want to learn music production🎵 in a fun and objective way, without too much technical stuff? So this is the perfect website for you.😎
     <br> 
 </p>
 
