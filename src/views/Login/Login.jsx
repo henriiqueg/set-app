@@ -11,11 +11,8 @@ const Login = () => {
     user.login();
   };
 
-  console.log(user.currentUser);
-
   return (
     <div>
-      {/* <p>{user.currentUser.providerData[0]}</p> */}
       <form onSubmit={handleSubmit}>
         <button type="submit">login com google</button>
       </form>
