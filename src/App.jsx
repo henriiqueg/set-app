@@ -5,13 +5,17 @@ import GlobalStyle from 'styles/GlobalStyle';
 
 import Main from 'routes/Main';
 
+import AuthProvider from 'contexts/AuthProvider';
+
 const App = () => (
-  <BrowserRouter>
-    <Suspense fallback={(<h1>Carregando</h1>)}>
-      <GlobalStyle />
-      <Main />
-    </Suspense>
-  </BrowserRouter>
+  <AuthProvider>
+    <BrowserRouter>
+      <Suspense fallback={(<h1>Carregando</h1>)}>
+        <GlobalStyle />
+        <Main />
+      </Suspense>
+    </BrowserRouter>
+  </AuthProvider>
 );
 
 export default App;
