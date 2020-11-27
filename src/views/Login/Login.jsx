@@ -1,4 +1,6 @@
-import React from 'react';
+/* eslint-disable no-return-assign */
+import React, { useRef, useEffect } from 'react';
+import { gsap } from 'gsap';
 
 import { useAuth } from 'contexts/AuthProvider';
 
@@ -23,6 +25,35 @@ import {
 const Login = () => {
   const user = useAuth();
 
+  let illustrationRef = useRef(null);
+  let titleRef = useRef(null);
+  let descriptionRef = useRef(null);
+  let buttonRef = useRef(null);
+
+  useEffect(() => {
+    gsap.from(illustrationRef, {
+      duration: 2,
+      opacity: 0,
+      ease: 'power3.out',
+    });
+  }, [illustrationRef]);
+
+  useEffect(() => {
+    gsap.from([titleRef, descriptionRef], {
+      duration: 1,
+      opacity: 0,
+      y: 200,
+      ease: 'power3.out',
+      stagger: {
+        amount: 0.3,
+      },
+    });
+  }, [titleRef, descriptionRef]);
+
+  useEffect(() => {
+
+  }, [buttonRef]);
+
   const handleLogin = () => {
     user.login();
   };
@@ -34,23 +65,23 @@ const Login = () => {
 
         <Logo src={logo} />
 
-        <Illustration>
+        <Illustration ref={(el) => (illustrationRef = el)}>
           <img src={illustration} alt="" />
         </Illustration>
 
-        <HeaderTitle>
+        <HeaderTitle ref={(el) => (titleRef = el)}>
           Aprenda sobre produção musical a
           {' '}
           <span>qualquer hora e em qualquer lugar</span>
         </HeaderTitle>
 
-        <HeaderDescription>
+        <HeaderDescription ref={(el) => (descriptionRef = el)}>
           Um texto sobre o que o aplicativo faz
           e por que você deveria utilizá-lo
           Um texto sobre o que o aplicativo faz e por que você deveria utilizá-lo
         </HeaderDescription>
 
-        <GoogleButton type="button" onClick={handleLogin}>
+        <GoogleButton type="button" onClick={handleLogin} ref={(el) => (buttonRef = el)}>
           <img src={googleLogo} alt="" />
           Entrar com o Google
         </GoogleButton>

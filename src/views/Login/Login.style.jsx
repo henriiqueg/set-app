@@ -1,5 +1,15 @@
-import styled from 'styled-components';
+import styled, { keyframes } from 'styled-components';
 import colors from 'styles/colors';
+
+const swingAnimation = keyframes`
+  39% { transform: rotate(0deg); }
+  40% { transform: rotate(15deg); } 
+  45% { transform: rotate(-10deg); } 
+  50% { transform: rotate(5deg); } 
+  55% { transform: rotate(-5deg); } 
+  60% { transform: rotate(0deg); } 
+  100% { transform: rotate(0deg); } 
+`;
 
 export const Container = styled.div`
   width: 100vw;
@@ -36,6 +46,7 @@ export const ContentWrapper = styled.div`
   padding: 20px 30px;
   position: relative;
   z-index: 100;
+  overflow: hidden;
 
   display: flex;
   flex-direction: column;
@@ -47,6 +58,8 @@ export const Logo = styled.img`
   width: 100%;
   max-width: 50px;
   margin: 0 auto;
+
+  animation: ${swingAnimation} 4s infinite;
 `;
 
 export const Illustration = styled.div`
