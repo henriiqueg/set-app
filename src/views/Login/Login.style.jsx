@@ -1,5 +1,6 @@
 import styled, { keyframes } from 'styled-components';
 import colors from 'styles/colors';
+import breakoutPoint from 'styles/breakout-points';
 
 const swingAnimation = keyframes`
   39% { transform: rotate(0deg); }
@@ -20,7 +21,7 @@ export const Container = styled.div`
 
 export const PathBackgroundTop = styled.img`
   width: 100%;
-  max-width: 500px;
+  max-width: ${breakoutPoint.mobile};
   height: auto;
   position: absolute;
   z-index: 50;
@@ -30,7 +31,7 @@ export const PathBackgroundTop = styled.img`
 
 export const PathBackgroundBottom = styled.img`
   width: 100%;
-  max-width: 500px;
+  max-width: ${breakoutPoint.mobile};
   height: auto;
   position: absolute;
   z-index: 50;
@@ -40,7 +41,7 @@ export const PathBackgroundBottom = styled.img`
 
 export const ContentWrapper = styled.div`
   width: 100%;
-  max-width: 500px;
+  max-width: ${breakoutPoint.mobile};
   margin: 0 auto;
   height: 100%;
   padding: 20px 30px;
