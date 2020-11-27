@@ -2,6 +2,8 @@ import React, {
   useState, useEffect, createContext, useContext,
 } from 'react';
 
+import PageLoading from 'components/PageLoading';
+
 import { auth, provider } from 'helpers/firebase';
 
 const AuthContext = createContext();
@@ -36,7 +38,7 @@ const AuthProvider = ({ children }) => {
 
   return (
     <AuthContext.Provider value={value}>
-      {!loading && children}
+      {loading ? (<PageLoading />) : children}
     </AuthContext.Provider>
   );
 };
