@@ -21,6 +21,8 @@ export const HeaderWrapper = styled.div`
   background-color: ${colors.white};
   border-bottom: 2px solid #c7c7c7;
   box-shadow: 0 14px 41px -21px black;
+  position: relative;
+  z-index: 100px;
   
   display: flex;
   align-items: center;
@@ -45,9 +47,8 @@ export const HeaderLogo = styled.div`
 
   p {
     color: ${colors.lightBlue};
-    font-size: .85rem;
-    font-weight: 500;
-    margin-bottom: 3px;
+    font-size: .75rem;
+    font-weight: 600;
   }
 
   img {
@@ -77,9 +78,8 @@ export const ProfileInfo = styled.button`
   
   p {
     color: ${colors.lightBlue};
-    font-size: .85rem;
-    font-weight: 500;
-    margin-bottom: 3px;
+    font-size: .75rem;
+    font-weight: 600;
   }
 
   img {
@@ -111,8 +111,8 @@ export const ProfileMenu = styled.div`
   button {
     outline: none!important;
     background-color: transparent;
-    font-size: .85rem;
-    font-weight: 500;
+    font-size: .75rem;
+    font-weight: 600;
     width: 100%;
     border: none;
     padding: 5px 8px;
@@ -133,4 +133,16 @@ export const ProfileMenu = styled.div`
     position: absolute;
   }
 
+`;
+
+export const IllustrationDashboard = styled.img`
+  width: 100%;
+  max-width: ${breakoutPoint.mobile};
+  height: auto;
+  position: absolute;
+  z-index: 50;
+  bottom: 0%;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: .5;
 `;
