@@ -9,7 +9,6 @@ const {
   REACT_APP_FIREBASE_STORAGE_BUCKET,
   REACT_APP_FIREBASE_MESSAGING_SENDER_ID,
   REACT_APP_FIREBASE_APP_ID,
-  REACT_APP_FIREBASE_MEASUREMENT_ID,
 } = process.env;
 
 const app = firebase.initializeApp({
@@ -20,7 +19,6 @@ const app = firebase.initializeApp({
   storageBucket: REACT_APP_FIREBASE_STORAGE_BUCKET,
   messagingSenderId: REACT_APP_FIREBASE_MESSAGING_SENDER_ID,
   appId: REACT_APP_FIREBASE_APP_ID,
-  measurementId: REACT_APP_FIREBASE_MEASUREMENT_ID,
 });
 
 export const auth = app.auth();
