@@ -2,45 +2,52 @@ import React from 'react';
 import ClassItem from './ClassItem';
 
 const getClassItemOuterDivStyle = (outerDivStyle) => ({
-  ...outerDivStyle,
-  borderRadius: '5px',
+  borderRadius: '10px',
   display: 'flex',
   flexDirection: 'row',
   alignItems: 'center',
   justifyContent: 'center',
-  width: '98%',
+  width: '96%',
+  flexBasis: '40px',
+  hover: 'pointer',
+  marginTop: '5px',
+  marginBottom: '5px',
+  cursor: 'pointer',
+  ...outerDivStyle,
 });
 
 const getClassItemImgDivStyle = (imgDivStyle) => ({
-  ...imgDivStyle,
   display: 'flex',
   alignItems: 'center',
   justifyContent: 'center',
   width: '10%',
+  color: 'white',
+  ...imgDivStyle,
 });
 
 const getClassItemSpanDivStyle = (titleDivStyle) => ({
-  ...titleDivStyle,
   display: 'flex',
   flexDirection: 'column',
   alignItems: 'start',
   justifyContent: 'start',
   width: '85%',
+  ...titleDivStyle,
 });
 
 const getClassItemTitleSpanStyle = (titleSpanStyle) => ({
-  ...titleSpanStyle,
   fontWeight: 'bold',
+  ...titleSpanStyle,
 });
 
 const getClassItemSubtitleSpanStyle = (subtitleSpanStyle) => ({
-  ...subtitleSpanStyle,
   fontSize: '8px',
+  ...subtitleSpanStyle,
 });
 
 const getClassItemArrowDivStyle = (arrowDivStyle) => ({
-  ...arrowDivStyle,
   width: '5%',
+  color: 'white',
+  ...arrowDivStyle,
 });
 
 const getModifiedPropsForClassItemProps = ({
@@ -61,19 +68,6 @@ const getModifiedPropsForClassItemProps = ({
   ...props,
 });
 
-const getModifiedPropsForClassItem = (classItem) => (
-  getModifiedPropsForClassItemProps(classItem.props)
-);
-
-const getClassItemWithModifiedProps = (classItem) => (
-  <ClassItem {...getModifiedPropsForClassItem(classItem)} />
-);
-
-export default ({
-  style,
-  children,
-}) => (
-  <div style={style}>
-    {React.Children.map(children, getClassItemWithModifiedProps)}
-  </div>
+export default (props) => (
+  <ClassItem {...getModifiedPropsForClassItemProps(props)} />
 );
