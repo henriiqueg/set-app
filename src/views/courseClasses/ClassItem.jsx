@@ -15,7 +15,9 @@ export default ({
   outerDivStyle,
   imgDivStyle,
   titleImgSrc,
+  middleDivStyle,
   titleDivStyle,
+  subtitleDivStyle,
   titleSpanStyle,
   subtitle,
   subtitleSpanStyle,
@@ -32,13 +34,13 @@ export default ({
     <div style={imgDivStyle}>
       <img src={titleImgSrc} alt="Aula" />
     </div>
-    <div style={titleDivStyle}>
-      <div>
+    <div style={middleDivStyle}>
+      <div style={titleDivStyle}>
         <span style={titleSpanStyle}>
           {title}
         </span>
       </div>
-      <div>
+      <div style={subtitleDivStyle}>
         <span style={subtitleSpanStyle}>
           {subtitle}
         </span>

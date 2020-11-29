@@ -27,19 +27,20 @@ const getClassItemImgDivStyle = (imgDivStyle) => ({
   ...imgDivStyle,
 });
 
-const getClassItemSpanDivStyle = (titleDivStyle) => ({
+const getClassItemSpanDivStyle = (middleDivStyle) => ({
   display: 'flex',
   flexDirection: 'column',
   alignItems: 'start',
-  justifyContent: 'start',
+  justifyContent: 'center',
   width: '85%',
+  height: '50%',
   paddingLeft: '10px',
-  ...titleDivStyle,
+  ...middleDivStyle,
 });
 
 const getClassItemTitleSpanStyle = (titleSpanStyle) => ({
   fontWeight: 'bold',
-  fontFamily: 'Raleway',
+  fontSize: '12px',
   ...titleSpanStyle,
 });
 
@@ -55,21 +56,32 @@ const getClassItemArrowDivStyle = (arrowDivStyle) => ({
   ...arrowDivStyle,
 });
 
+const getClassItemTitleDivStyle = (titleDivStyle) => titleDivStyle;
+
+const getClassItemSubtitleDivStyle = (subtitleDivStyle) => ({
+  marginTop: '-10px',
+  ...subtitleDivStyle,
+});
+
 const getModifiedPropsForClassItemProps = ({
   outerDivStyle,
   imgDivStyle,
-  titleDivStyle,
+  middleDivStyle,
   titleSpanStyle,
   subtitleSpanStyle,
   arrowDivStyle,
+  titleDivStyle,
+  subtitleDivStyle,
   ...props
 }) => ({
   outerDivStyle: getClassItemOuterDivStyle(outerDivStyle),
   imgDivStyle: getClassItemImgDivStyle(imgDivStyle),
-  titleDivStyle: getClassItemSpanDivStyle(titleDivStyle),
+  middleDivStyle: getClassItemSpanDivStyle(middleDivStyle),
   titleSpanStyle: getClassItemTitleSpanStyle(titleSpanStyle),
   subtitleSpanStyle: getClassItemSubtitleSpanStyle(subtitleSpanStyle),
   arrowDivStyle: getClassItemArrowDivStyle(arrowDivStyle),
+  titleDivStyle: getClassItemTitleDivStyle(titleDivStyle),
+  subtitleDivStyle: getClassItemSubtitleDivStyle(subtitleDivStyle),
   titleImgSrc,
   arrowImgSrc,
   ...props,
