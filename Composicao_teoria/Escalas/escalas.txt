@@ -1,0 +1,51 @@
+    Vamos abordar o conceito de tom e semitom. Semitom, deu uma forma simples, é a nota mais
+próxima da nota que nós estamos. Por exemplo, vamos pensar no piano, se nós estamos no dó,
+as nota mais próxima da direita é o (dó# ou réb), e a nota mais próxima à esquerda do dó é
+o si, ou seja, a distância do (dó# ou réb) para o dó é de um semitom, e a distância de si 
+para dó também é de um semitom.
+    Um tom é nada mais que dois semitons, no caso, pensando em dó, o ré possui uma distância 
+de um tom para o dó, porque de dó para dó# é um semitom e de dó# para ré é um semitom também, 
+logo de de dó para ré é a distância de um tom.
+
+Obs: quando eu citar lá#, pense logo que é a mesmo de dizer Sib. Então se eu disser do#, pense
+que eu poderia dizer réb, ok?
+
+Vamos falar sobre escalas maiores e menores:
+
+    Mas primeiro o que é escala e para que serve? Escala é um conjunto de notas, as quais os 
+músicos se baseam, é um padrão de notas, que inclusise nos dá a noção de em que tom estamos
+(esse Tom que falo, não é o tom que citei no começo, é outro conceito que irei falar mais em 
+breve). Irei falar sobre dois tipos de escala, as escalas maiores e menores. A formação de uma
+escala maior é dada por tom, tom, semi-tom, tom , tom, tom, semi-tom. Isso parece complicado 
+mas vamos pensar juntos: como seria a escala de dó maior. Começamos pela tónica, que nada mais
+é a nota origem da escala, que no nosso caso é dó, depois a distância de um tom de dó para direita
+é ré, a distância de um tom de ré para direita é mi(vamos caminha sempre para direita para formá-la),
+de um semitom de mí é fá, um tom de fá é sol, um tom de sol é lá, um semitom de si é dó.
+
+A partir disso você pode montar qualquer escala, veja a imagem das escalas maiores de dó, ré, mi, fá,
+sol, lá e sí.
+
+    (escalas-musicais_maiores.png)
+
+    (SoundJS: escutar som da escala de dó)
+
+Fica como desafio você montar as escalas maiores de (dó# e réb), (ré# e mib), (fá# e solb), 
+(láb e sol#) e (lá# e sib).
+
+A formaçao da escala menor é um pouco diferente, a formação se dá por: Tom, Semitom, Tom,
+Tom, Semitom, Tom, Tom. A imagem abaixo mostra a formação das escalas menores de dó até si.
+
+    (Escalas_menores.jpg)
+    
+    Perceba que na imagem 1 significa a distância de um tom e 1/2 representa a distância de
+um semitom.
+
+Com esse conhecimento de você pegar a escala maior de dó e ficar brincando com as notas,
+você pode formar melodias, que são um conjunto de notas tocadas sequencialmente.
+
+Uma notação que você você pode encontrar para as notas é a notação de Cifra. Nesse tipo
+de notação C-dó, D-ré, E-mi, F-fá, G-sol, A-lá , B-si. Nós iremos falar sobre Cifra no 
+próximo capítulo, mas veja como fica todas as escalas menores nessa representação:
+
+    (Escalas_menores_cifras.png)
+

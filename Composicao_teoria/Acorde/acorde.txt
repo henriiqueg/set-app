@@ -1,0 +1,38 @@
+Vamos falar sobre acorde, o que é um acorde, para que serve?
+
+    Um acorde é um conjunto de notas sendo tocadas SIMULTANEAMTE, ou seja, ao mesmo tempo,
+ele sevre, grande parte das vezes, como um acompanhamento para melodia(conjunto sequenciado
+de notas).
+
+Irei mostrar como se monta um acorde maior e menor, para montar um acorde maior, você precisa
+tocar a nota de origem(tônica) + a nota dois tons a frente(terça maior) + a nota 3 tons e meio 
+a frente(quinta justa ), formando no exemplo de dó maior: dó, mi, sol. Como nós vimos dó maior
+pode ser representado por C maior, porém em notação de cifra(tipo de notação para acorde) se faz
+"M" para representar um acorde maior, e "m" para representar um acorde menor. O "M" nós
+geralmente omitimos, então quando você entrar em um Cifra Club, que é um site especializado
+para nos dar músicas com a letra CIFRADA, se você ver um 'A', é porque deve tocar um acorde
+de Lá maior naquele momento. Entretanto, caso veja um Dm, é para executar um Ré menor.
+
+    Percebendo a tabela a baixo, focando nossa atenção aos quadrados amarelos, percebemos
+a estrutura de um acorde maior: tônica(nota origem), pulamos 2 tons e chegamos na terça maior
+(III), da terça maior pulamos 1 tom e meio(1 tom e 1 semitom) para chegarmos na quinta Justa
+(V) que é o mesmo de saltar 3 tons e meio da tônica para direita.
+
+    (Formacao_de_acordes_graus.png)
+
+    Segue uma foto mostrando como seriam armados esses mesmos acordes no piano ou teclado:
+
+    (acordesMaioresPiano.png)
+
+    (SoundJs: execução dos acordes, pelo menos de dó maior)
+
+    O acorde menor tem quase a mesma estrutura, só muda um detalhe que é: tônica + a nota
+um tom e meio a direita(terça menor) + 2 tons a direita da terça menor que é mesma coisa de
+3 tons e meio da tônica (quinta justa).
+
+    Segue uma tabela mostrando os acordes menores no piano:
+
+    (acordesMenoresPiano.png)
+
+Os acordes não são algo que você vai gravar de primeira, você deve ir praticando até se tornar 
+algo natural, assim como escalas.
