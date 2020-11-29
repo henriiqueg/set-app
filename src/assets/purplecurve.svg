@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="192" height="99.734" viewBox="0 0 192 99.734">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Caminho_1" data-name="Caminho 1" d="M0,0H192V99.734S174.542,87.848,137,80,74.163,81.086,41,64,0,0,0,0Z" transform="translate(128 112)" fill="#af3cba"/>
+    </clipPath>
+    <filter id="Retângulo_157" x="-145" y="-65" width="421.961" height="302.452" filterUnits="userSpaceOnUse">
+      <feOffset dx="10" dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="25" result="blur"/>
+      <feFlood flood-opacity="0.102"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Grupo_1" data-name="Grupo 1" transform="translate(-128 -112)" clip-path="url(#clip-path)">
+    <g transform="matrix(1, 0, 0, 1, 128, 112)" filter="url(#Retângulo_157)">
+      <rect id="Retângulo_157-2" data-name="Retângulo 157" width="272" height="152" rx="10" transform="translate(-80.4 0.23)" fill="#c443d1"/>
+    </g>
+  </g>
+</svg>
