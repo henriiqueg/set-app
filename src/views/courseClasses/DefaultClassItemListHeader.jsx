@@ -23,6 +23,7 @@ const defaultLeftComponentOuterDivStyle = {
 const defaultLeftComponentSpanStyle = {
   fontSize: '18px',
   fontWeight: 'bold',
+  fontFamily: 'Raleway',
 };
 
 const LeftComponent = ({
@@ -43,6 +44,7 @@ const defaultRightComponentOuterDivStyle = {
 
 const defaultRightComponentSpanStyle = {
   fontSize: '10px',
+  fontFamily: 'Raleway',
 };
 
 const RightComponent = ({

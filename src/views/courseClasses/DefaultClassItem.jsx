@@ -1,5 +1,7 @@
 import React from 'react';
 import ClassItem from './ClassItem';
+import titleImgSrc from '../../assets/aula.svg';
+import arrowImgSrc from '../../assets/arrow.svg';
 
 const getClassItemOuterDivStyle = (outerDivStyle) => ({
   borderRadius: '10px',
@@ -10,8 +12,8 @@ const getClassItemOuterDivStyle = (outerDivStyle) => ({
   width: '96%',
   flexBasis: '40px',
   hover: 'pointer',
-  marginTop: '5px',
-  marginBottom: '5px',
+  marginTop: '2px',
+  marginBottom: '2px',
   cursor: 'pointer',
   ...outerDivStyle,
 });
@@ -31,16 +33,19 @@ const getClassItemSpanDivStyle = (titleDivStyle) => ({
   alignItems: 'start',
   justifyContent: 'start',
   width: '85%',
+  paddingLeft: '10px',
   ...titleDivStyle,
 });
 
 const getClassItemTitleSpanStyle = (titleSpanStyle) => ({
   fontWeight: 'bold',
+  fontFamily: 'Raleway',
   ...titleSpanStyle,
 });
 
 const getClassItemSubtitleSpanStyle = (subtitleSpanStyle) => ({
   fontSize: '8px',
+  fontFamily: 'Raleway',
   ...subtitleSpanStyle,
 });
 
@@ -65,6 +70,8 @@ const getModifiedPropsForClassItemProps = ({
   titleSpanStyle: getClassItemTitleSpanStyle(titleSpanStyle),
   subtitleSpanStyle: getClassItemSubtitleSpanStyle(subtitleSpanStyle),
   arrowDivStyle: getClassItemArrowDivStyle(arrowDivStyle),
+  titleImgSrc,
+  arrowImgSrc,
   ...props,
 });
 
