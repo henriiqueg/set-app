@@ -31,9 +31,9 @@ const getClassItemSpanDivStyle = (middleDivStyle) => ({
   display: 'flex',
   flexDirection: 'column',
   alignItems: 'start',
-  justifyContent: 'center',
+  justifyContent: 'start',
   width: '85%',
-  height: '50%',
+  height: '100%',
   paddingLeft: '10px',
   ...middleDivStyle,
 });

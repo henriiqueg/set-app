@@ -11,7 +11,7 @@ export default {
       route: '/class/1',
     },
     {
-      tite: 'Síntese Sonora',
+      title: 'Síntese Sonora',
       subtitle: '',
       route: '/class/2',
     },
@@ -28,7 +28,7 @@ export default {
     {
       title: 'Compressão',
       subtitle: '',
-      route: '/class/5'
+      route: '/class/5',
     },
   ],
 };
