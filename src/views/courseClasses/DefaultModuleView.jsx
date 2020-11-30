@@ -33,6 +33,7 @@ const helloDivStyle = {
   flexDirection: 'row',
   justifyContent: 'start',
   paddingLeft: '20px',
+  marginBottom: '15px',
 };
 
 export default ({
