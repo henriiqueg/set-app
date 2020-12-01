@@ -23,7 +23,7 @@ export const HeaderContainer = styled.div`
   width: 100%;
   position: relative;
   
-  background-color: ${({ theme }) => (theme === 'blue' ? '#5765F7' : '#F77657')};
+  background-color: #5765F7;
   min-height: 50px;
   display: flex;
   flex-direction: column;
@@ -84,5 +84,6 @@ export const Title = styled.h2`
 export const Content = styled.p`
   margin-top: 30px;
   font-size: 1rem;
+  white-space: pre-line;
   font-weight: 500;
 `;

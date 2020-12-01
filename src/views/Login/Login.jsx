@@ -76,9 +76,8 @@ const Login = () => {
         </HeaderTitle>
 
         <HeaderDescription ref={(el) => (descriptionRef = el)}>
-          Um texto sobre o que o aplicativo faz
-          e por que você deveria utilizá-lo
-          Um texto sobre o que o aplicativo faz e por que você deveria utilizá-lo
+          Com aulas teóricas e módulos de aprendizado práticos,
+          simples e direcionados para o seu interesse.
         </HeaderDescription>
 
         <GoogleButton type="button" onClick={handleLogin} ref={(el) => (buttonRef = el)}>

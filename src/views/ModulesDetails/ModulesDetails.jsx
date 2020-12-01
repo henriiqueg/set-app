@@ -26,7 +26,7 @@ const LessonsDetails = () => {
 
   return (
     <Container>
-      <HeaderContainer>
+      <HeaderContainer theme={module[0].theme}>
         <Header>
           <BackButton to="/">
             <img src={arrowWhite} alt="" />
