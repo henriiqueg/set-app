@@ -6,9 +6,21 @@ import DefaultClassItem from './DefaultClassItem';
 import DefaultClassItemListHeader from './DefaultClassItemListHeader';
 import backgroundClassItemList from '../../assets/background.svg';
 import ClassDescriptions from './ClassDescriptions';
+import DefaultModuleCard from './DefaultModuleCard';
+import purpleCurve from '../../assets/purplecurve.svg';
 
 const classItemStyle = {
   backgroundColor: '#f2b619',
+};
+
+const defaultModuleCardStyle = {
+  backgroundColor: 'purple',
+  backgroundImage: `url(${purpleCurve})`,
+  backgroundSize: 'cover',
+};
+
+const defaultModuleCardSpanStyle = {
+  fontWeight: 'bold',
 };
 
 const getDefaultClassItemListForDescriptions = (history) => (
@@ -44,7 +56,13 @@ export default () => {
 
   return (
     <div style={outerDivStyle}>
-      <DefaultModuleView />
+      <DefaultModuleView>
+        <DefaultModuleCard
+          outerDivStyle={defaultModuleCardStyle}
+          spanStyle={defaultModuleCardSpanStyle}
+          spanText="Módulo principal"
+        />
+      </DefaultModuleView>
       <DefaultClassItemList style={defaultClassItemListStyle}>
         <DefaultClassItemListHeader.Body>
           <DefaultClassItemListHeader.LeftComponent>
