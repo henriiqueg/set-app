@@ -28,7 +28,7 @@ const Lessons = () => (
         Voltar
       </BackButton>
       <HeaderTitle>
-        <p>Módulos</p>
+        <p>Aulas</p>
       </HeaderTitle>
     </HeaderContent>
 
