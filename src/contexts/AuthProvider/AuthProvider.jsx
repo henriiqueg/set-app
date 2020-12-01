@@ -1,16 +1,24 @@
+/* eslint-disable no-unused-vars */
 import React, {
-  useState, useEffect, createContext, useContext,
+  useState, useEffect, createContext, useContext, useMemo,
 } from 'react';
 
 import PageLoading from 'components/PageLoading';
 
 import { auth, provider } from 'helpers/firebase';
 
-const AuthContext = createContext();
+const initialValues = {
+  authenticated: null,
+  currentUser: null,
+  loading: true,
+};
+
+const AuthContext = createContext(initialValues);
 
 const AuthProvider = ({ children }) => {
-  const [currentUser, setCurrentUser] = useState(null);
-  const [loading, setLoading] = useState(true);
+  const [currentUser, setCurrentUser] = useState();
+  const [authenticated, setAuthenticated] = useState();
+  const [loading, setLoading] = useState();
 
   const login = () => {
     auth.useDeviceLanguage();
@@ -19,26 +27,28 @@ const AuthProvider = ({ children }) => {
 
   const logout = () => {
     auth.signOut();
+    setAuthenticated(false);
   };
 
   useEffect(() => {
     const unsubscribe = auth.onAuthStateChanged((user) => {
       setLoading(false);
-      setCurrentUser(user?.providerData[0]);
+      if (user?.providerData[0]) {
+        setCurrentUser(user?.providerData[0]);
+        setAuthenticated(true);
+      } else {
+        setAuthenticated(false);
+      }
     });
-
-    return unsubscribe;
   }, []);
 
-  const value = {
-    currentUser,
-    login,
-    logout,
-  };
-
+  const value = useMemo(
+    () => ({ currentUser, authenticated }),
+    [currentUser, authenticated],
+  );
   return (
-    <AuthContext.Provider value={value}>
-      {loading ? (<PageLoading />) : children}
+    <AuthContext.Provider value={{ ...value, login, logout }}>
+      {children}
     </AuthContext.Provider>
   );
 };

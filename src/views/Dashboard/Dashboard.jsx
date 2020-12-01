@@ -8,6 +8,9 @@ import { useAuth } from 'contexts/AuthProvider';
 import logo from 'assets/logo/set-logo.svg';
 import illustrationDashboard from 'assets/illustration-dashboard.svg';
 
+import ModulesCards from 'components/ModulesCards';
+import LessonsList from 'components/LessonsList';
+
 import {
   Container,
   HeaderWrapper,
@@ -17,6 +20,8 @@ import {
   ProfileInfo,
   ProfileMenu,
   IllustrationDashboard,
+  DashboardContent,
+  DashboardUserName,
 } from './Dashboard.style';
 
 const Dashboard = () => {
@@ -72,6 +77,18 @@ const Dashboard = () => {
         </HeaderContent>
       </HeaderWrapper>
 
+      <DashboardContent>
+        <DashboardUserName>
+          <span>
+            Olá.
+          </span>
+          <p>{user.currentUser?.displayName.split(' ')[0]}</p>
+        </DashboardUserName>
+
+      </DashboardContent>
+
+      <ModulesCards />
+      <LessonsList />
       <IllustrationDashboard src={illustrationDashboard} />
     </Container>
   );
