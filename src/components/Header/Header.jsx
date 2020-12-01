@@ -31,7 +31,6 @@ const Header = () => {
   const handleClickOutside = useCallback(
     (event) => {
       if (menuRef.current && !menuRef.current.contains(event.target)) {
-        console.log('entrei aqui');
         if (menuOpen) {
           toggleMenu();
         }
