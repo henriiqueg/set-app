@@ -3,9 +3,9 @@ import { BrowserRouter } from 'react-router-dom';
 
 import PageLoading from 'components/PageLoading';
 
-import Main from 'routes/Main';
-
 import AuthProvider from 'contexts/AuthProvider';
+
+import Main from './routes/Main';
 
 const App = () => (
   <AuthProvider>
