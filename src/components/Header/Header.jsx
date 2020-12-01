@@ -46,7 +46,7 @@ const Header = () => {
   return (
     <HeaderWrapper>
       <HeaderContent>
-        <HeaderLogo>
+        <HeaderLogo to="/">
           <img src={logo} alt="" />
           <p>Set</p>
         </HeaderLogo>

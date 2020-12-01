@@ -12,6 +12,7 @@ export const Container = styled.div`
   position: relative;
   padding-top: 50px;
   background-color: white;
+  margin: 0 auto;
 
   /* display: flex;
   flex-direction: column;

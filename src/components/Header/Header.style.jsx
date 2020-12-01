@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 import colors from 'styles/colors';
 import triangleMenu from 'assets/icons/triangle-menu.svg';
 import breakoutPoint from 'styles/breakout-points';
@@ -28,10 +29,11 @@ export const HeaderContent = styled.div`
   justify-content: space-between;
 `;
 
-export const HeaderLogo = styled.div`
+export const HeaderLogo = styled(Link)`
   display: flex;
   align-items: center;
   justify-content: center;
+  text-decoration: none;
 
   p {
     color: ${colors.lightBlue};
