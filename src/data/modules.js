@@ -30,6 +30,20 @@ const data = [
     theme: 'red',
     content: 'fasdfasdf dfa asd faf asdf adsf asdfasdfads fdasfasdfa dsfafas fasfa dsfasd fasdf asdfasdfaadfadsf dfads',
   },
+  {
+    title: 'Escolhendo o amplificador perfeito para você',
+    id: 5,
+    icon: microphone,
+    theme: 'red',
+    content: 'fasdfasdf dfa asd faf asdf adsf asdfasdfads fdasfasdfa dsfafas fasfa dsfasd fasdf asdfasdfaadfadsf dfads',
+  },
+  {
+    title: 'Escolhendo o amplificador perfeito para você',
+    id: 6,
+    icon: microphone,
+    theme: 'red',
+    content: 'fasdfasdf dfa asd faf asdf adsf asdfasdfads fdasfasdfa dsfafas fasfa dsfasd fasdf asdfasdfaadfadsf dfads',
+  },
 ]
 
 export default data;

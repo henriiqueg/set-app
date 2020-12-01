@@ -2,30 +2,35 @@ import React from 'react';
 
 import lessonsData from 'data/lessons';
 
-import aulaIcon from 'assets/icons/aula.svg';
 import arrowWhite from 'assets/icons/arrow-white.svg';
+import arrowBlack from 'assets/icons/arrow-black.svg';
+import aulaIcon from 'assets/icons/aula.svg';
+import illustrationLessons from 'assets/illustration-error-colored.svg';
 
 import {
-  ContainerLesson,
-  LessonHeader,
-  AllLessonsButton,
+  Container,
+  HeaderContent,
+  HeaderTitle,
+  BackButton,
   LessonsListContainer,
   LessonItemContainer,
   LessonIcon,
   LessonItemContent,
   ArrowIcon,
-} from './LessonsList.style';
+  IllustrationLessons,
+} from './Lessons.style';
 
-const LessonsList = () => (
-  <ContainerLesson>
-    <LessonHeader>
-      <p>
-        Aulas
-      </p>
-      <AllLessonsButton to="/lessons">
-        Ver todas as aulas
-      </AllLessonsButton>
-    </LessonHeader>
+const Lessons = () => (
+  <Container>
+    <HeaderContent>
+      <BackButton to="/">
+        <img src={arrowBlack} alt="" />
+        Voltar
+      </BackButton>
+      <HeaderTitle>
+        <p>Módulos</p>
+      </HeaderTitle>
+    </HeaderContent>
 
     <LessonsListContainer>
       {lessonsData.map((lesson) => (
@@ -40,7 +45,8 @@ const LessonsList = () => (
         </LessonItemContainer>
       ))}
     </LessonsListContainer>
-  </ContainerLesson>
+    <IllustrationLessons src={illustrationLessons} />
+  </Container>
 );
 
-export default LessonsList;
+export default Lessons;

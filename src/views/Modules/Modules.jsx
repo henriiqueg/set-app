@@ -1,34 +1,38 @@
-/* eslint-disable */
 import React from 'react';
 
 import modulesData from 'data/modules';
 
 import arrowWhite from 'assets/icons/arrow-white.svg';
+import arrowBlack from 'assets/icons/arrow-black.svg';
+import illustrationModules from 'assets/illustration-error-colored.svg';
 
 import {
-  CardContainer,
-  CardHeader,
-  AllModulesButton,
-  CardsRow,
+  Container,
+  HeaderContent,
+  HeaderTitle,
+  BackButton,
+  CardsContainer,
   Card,
   CardContent,
   CardTitle,
   CardIcon,
   CardLink,
-} from './ModulesCards.style';
+  IllustrationModules,
+} from './Modules.style';
 
-const ModulesCards = () => (
-  <CardContainer>
-    <CardHeader>
-      <p>
-        Módulos
-      </p>
-      <AllModulesButton to="/modules">
-        Ver todos os módulos
-      </AllModulesButton>
-    </CardHeader>
+const Modules = () => (
+  <Container>
+    <HeaderContent>
+      <BackButton to="/">
+        <img src={arrowBlack} alt="" />
+        Voltar
+      </BackButton>
+      <HeaderTitle>
+        <p>Módulos</p>
+      </HeaderTitle>
+    </HeaderContent>
 
-    <CardsRow>
+    <CardsContainer>
       {modulesData.map((module) => (
         <Card key={module.id} theme={module.theme}>
           <CardContent>
@@ -48,8 +52,9 @@ const ModulesCards = () => (
           </CardContent>
         </Card>
       ))}
-    </CardsRow>
-  </CardContainer>
+    </CardsContainer>
+    <IllustrationModules src={illustrationModules} />
+  </Container>
 );
 
-export default ModulesCards;
+export default Modules;

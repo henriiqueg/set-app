@@ -8,7 +8,7 @@ export const ContainerLesson = styled.div`
   padding: 15px 10px;
   width: calc(100% - 40px);
   max-width: 500px;
-  margin: 20px;
+  margin: 20px auto;
   border-radius: 12px;
   box-shadow: 10px 10px 20px #00000026;
   position: relative;
@@ -41,6 +41,10 @@ export const LessonsListContainer = styled.div`
   flex-direction: column;
   overflow-y: scroll;
   max-height: 45vh;
+  
+  &::-webkit-scrollbar {
+    display: none;
+  }
 `;
 
 export const LessonItemContainer = styled(Link)`
