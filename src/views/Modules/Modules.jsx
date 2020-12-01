@@ -43,7 +43,7 @@ const Modules = () => (
               <img src={module.icon} alt="" />
             </CardIcon>
 
-            <CardLink to={`${module.id}`}>
+            <CardLink to={`/modules/${module.id}`}>
               <p>
                 Ler sobre
               </p>

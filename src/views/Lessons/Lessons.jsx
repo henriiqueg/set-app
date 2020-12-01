@@ -34,7 +34,7 @@ const Lessons = () => (
 
     <LessonsListContainer>
       {lessonsData.map((lesson) => (
-        <LessonItemContainer key={lesson.id} to="">
+        <LessonItemContainer key={lesson.id} to={`/lessons/${lesson.id}`}>
           <LessonIcon src={aulaIcon} alt="" />
           <LessonItemContent>
             <p>

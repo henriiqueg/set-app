@@ -43,6 +43,7 @@ export const HeaderTitle = styled.div`
 export const BackButton = styled(Link)`
   text-decoration: none;
   margin-bottom: 20px;
+  color: black;
 
   img {
     transform: rotate(180deg);
