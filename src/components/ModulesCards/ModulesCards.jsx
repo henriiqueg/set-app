@@ -29,7 +29,7 @@ const ModulesCards = () => (
     </CardHeader>
 
     <CardsRow>
-      {modulesData?.map((module) => (
+      {modulesData.map((module) => (
         <Card key={module.id} theme={module.theme}>
           <CardContent>
             <CardTitle>
