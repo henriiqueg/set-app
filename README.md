@@ -20,7 +20,7 @@
     <br> 
 </p>
 
-<p>See live: <a href="https://set-app.netlify.app">Set App</a></p>
+<p>See live: <a href="https://set-app.netlify.app" target="_blank">Set App</a></p>
 
 ## 📝 Table of Contents
 - [About](#about)
@@ -67,9 +67,10 @@ npm run start
 - [React](https://pt-br.reactjs.org) - React
 - [Firebase](https://firebase.google.com/?hl=pt-br) - Firebase
 - [Styled-components](https://styled-components.com) - Styled Components
+- [Lottie](https://lottiefiles.com) - Lottie
 
 ## ✍️ Authors <a name = "authors"></a>
-- [@henriiqueg](https://github.com/henriiqueg) - Idea & Initial work
+- [@henriiqueg](https://github.com/henriiqueg) - Idea & Development
 
 See also the list of [contributors](https://github.com/henriiqueg/set-app/contributors) who participated in this project.
 
