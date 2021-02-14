@@ -20,7 +20,7 @@
     <br> 
 </p>
 
-<p>See live: (Set App)[https://set-app.netlify.app]</p>
+<p>See live: [Set App](https://set-app.netlify.app)</p>
 
 ## 📝 Table of Contents
 - [About](#about)
