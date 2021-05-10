@@ -1,0 +1,66 @@
+Vamos falar um pouco sobre intervalos, mas o que são?
+
+Intervalos, são distâncias entre notas, que são nomeados dependendo da sua distância. Nós
+aprendemos sobre tom e semiton que usavamos para conseguir classificar distâncias entre 
+notas, e vamos continuar utilizando esses conceitos para formarmos os intervalos. 
+
+Vamos antes falar sobre graus: pensando na escala de dó maior, temos: dó, ré, mi, fá, sol, lá, si.
+o dó é o primeiro grau, o ré 2º, mi 3º, fá 4º, sol 5º, lá 6º, si 7º. O mesmo pensamento
+podemos utilizar para qualquer escala, o que irá mudar a tonalidade. A tonalidade é a nota
+de origem que a define, no caso da escala de dó, a tonalidade é dó, pois é a nota de origem,
+ou seja a primeira nota, que inclusive a escala de dó se chama dó, pois a nota que define 
+a escala é o dó, porque ela é a nota de origem. Pegou a ideia?
+
+    Pensando na escala de Mi maior: mi(1º), fá#(2º), sol#(3º), lá(4º), si(5º), dó#(6º), ré#(7º).
+Então, se perguntarem o intervalo de mi para fá#? é um intervalo de segunda. Além dos graus, 
+podemos classificar um intervalo como menor, maior, diminuto ou aumentado. Segue uma 
+imagem mostrando os intervalos e suas respectivas distâncias em tons e semitons.
+
+    (tabela-de-intervalos.png)
+
+
+Vamos voltar nosso pensamento na escala maior de dó. Temos que de dó para ré é uma 2º maior,
+de dó para lá bemol é uma sexta menor. Perceba que de dó para réb é uma segunda menor, mas
+não podemos dizer que de dó para dó# é uma segunda menor, mesmo dó# sendo igual a ré 
+sonoricamente, pois dó# não é segunda de dó, mas sim primeira. Pois relembrando:  o dó 1º, 
+o ré 2º, mi 3º, fá 4º, sol 5º, lá 6º, si 7º. Então dó# , nós dizemos que ele é 1º aumentada
+de dó. Você não precisa se preoucupar tanto com esses detalhes, isso é apenas uma notação
+sistemática. Observe a tabela a baixo e veja os intervalos das notas em relação ao dó.
+
+    (intervalos_em_do.png)
+
+Se você pensar em uma escala maior ou menor, todo quarto e quinto grau são graus de 
+intervalos justos. Se você aumenta um semitom de um intervalo justo ele fica com com o grau
+de intervalo aumentado, se você diminui o intervalo fica diminuto. Por exemplo: Dó e Sol,
+sol é uma quinta justa de dó, porém se aumentarmos um semitom fica sol# que é uma quinta 
+aumentada de dó, e se diminuirmos um semitom solb, torna-se uma quinta diminuta de dó.
+Perceba que se aumentassemos um semitom de sol para láb, não é uma quinta aumentada, pois
+lá não é quinto grau de dó, e sim sexto, com isso é outra classificação.
+
+Já os um grau maior, se diminuirmos um semitom, torna-se menor, se deminuirmos mais um semitom,
+torna-se diminuto, porém se aumentarmos um semitom de um grau maior, torna-se aumentado.
+Veja um esqueminha que gosto de usar quando penso em intervalos:
+
+    (dicasIntervalos.png)
+
+Cuidado! láb é sexta menor de dó, porém sol# é quinta aumentada de dó e não uma sexta menor,
+pois sol é quinto grau de dó e lá é sexto grau de dó.
+
+Para saber qual é o grau de uma nota para outra, é só você pensar, na nota de origem e ver
+a distância. Exemplo Si é que grau de fá#? Pense na escala de fá, pense apenas nas notas
+da escala de fá# sem sustenidos ou bemois, então fica: fá, sol, lá, si, do, ré, mi. Depois
+nomeie cada nota em ordem crescente: fá(1º), sol(2º), lá(3º), si(4º), do(5º), ré(6º), mi(7º).
+então si é quarto grau de fá#, mesmo sem considerarmos o # do fá? Sim, porque estamos levando
+em conta o grau apenas. Agora queremos saber qual o intervalo de fá# para si? Sabemos já 
+que é uma quarta, para sabermos se é dimiuta, justa ou aumentada, pois só existem essas 
+opções para quartas e quintas, nós iremos pensar na escala maior de fá#: fá#, sol#, lá#,
+si, do#, ré#, mi#. Vendo a tabela de intervalos o sí tem 2 tons e meio de distância de
+fá#, então sí é uma 4º justa de fá#.
+
+Master dica: para responder no automático, tente ter as escalas maiores na mente, pois 
+a estrutura dos intervalos de uma escala maior é 2º maior, 3º maior, 4º justa, 5º justa,
+6º maior, 7ºmaior. Exemplificando em dó maior: dó, ré 2º maior, mi 3º maior, fá 4º justa,
+sol 5º justa, lá 6º maior, si 7ºmaior. Se queremos saber qual intervalo é de dó para síb,
+nós já sabemos que de dó para sí é uma sétima maior, se diminuirmos um semitom, ficamos 
+com síb, lembre que diminuindo um semitom de um intervalo grau maior, ele irá ficar menor.
+Logo, de dó para síb é um intervalo de sétima menor.

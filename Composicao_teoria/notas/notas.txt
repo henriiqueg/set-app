@@ -1,0 +1,48 @@
+
+
+Existem 7 notas musicais:
+Dó - Ré - Mi - Fá - Sol - Lá - Si
+As notas podem ser tocadas nos seus instrumentos musicais ou cantadas.
+
+* No piano, existem teclas brancas e pretas, Se você observar um piano, verá que da esquerda
+para a direita, tem 2 teclas pretas, 3 teclas pretas, 2 pretas , 3 pretas.
+
+    (teclas_piano.jpg)
+    
+O dó é a tecla branca ao lado esquerdo de duas teclas pretas.
+    
+    (do_no_piano.png)     (player de um dó no piano)
+
+A nota ao lado direito do Dó é o Ré, à direita de Ré é o Mi, em seguida são Fá, Sol, Lá, Si.
+Depois do Si, chegamos no próximo dó, perceba que o próximo dó está ao lado esquerdo de duas 
+teclas pretas.
+
+    (notas_no_piano.png)       (player de cada nota no piano)
+
+As notas mais à esquerda do piano são mais graves que à direita, esse conceito, nós chamamos
+de altura, é o que diz se uma nota é grave ou aguda.
+
+Além das notas que sabemos até agora, temos as notas sustenidos(#) e os as notas bemois(b).
+Uma nota é sustenida se tiver um '#' depois dela, por exemplo: Dó# = Dó sustenido, Fá# = Fá 
+sustenido. Uma nota é bemol, se tiver um 'b' depois dela, exemplo: Sib = Si bemol, Mib= Mi
+bemol.
+
+No piano, os sustenidos e bemois são representados pelas teclas pretas.
+
+    (notas_bemois_sustenidos.jpg)
+    
+Perceba na imagem acima que Mi e Si não possuem sustenidos, e , fá e dó não possuem bemois.
+Para saber o #(sustenido) de uma nota é só procurar a tecla preta mais perto à direita da
+tecla branca que é a nota que você está pensando, já o  b(bemol), é a tecla mais próxima à
+esquerda da tecla branca. Entre um dó e outro há então 12 notas, obs: Dó# e Réb possuem
+são a mesma nota sonoricamente, ou seja, eles são a mesma nota no piano, apenas a escrita
+é diferente. Entre um dó e outro, forma-se uma oitava(essa nomenclatura nos ajuda para 
+avaliar a altura de uma nota). Conlui-se que uma oitava contém 12 notas. 
+
+Uma nota, quando tocada, possue uma duração e uma intensidade. Duração é o tempo que a nota
+se extende até acabar totalmente o som, no caso do piano é quando você tira o dedo da tecla 
+ou quando o som termina de soar. Intensidade é a força que uma possa põe ao tocar uma nota,
+a intensidade de uma nota é forte, se você tocá-la forte, é fraca, se toca fraca, "bem 
+simples não?", obs: A intensidade se leva para a voz também (pois é um instrumento musical
+também), depende da força colocada na voz. 
+
